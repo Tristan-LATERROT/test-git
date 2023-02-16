@@ -11,6 +11,9 @@
 		<title>HOME-Page-Template</title>
 		<!-- description du contenu de la page max 156 char se voit dans le moteur de recherche-->
 		<meta name="Index" content="Template de page Index">
+		<!-- CDN Bootstrap -->
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+		<!-- my CSS -->
 		<link rel="stylesheet" href="CSS/Styles.css">
 	</head>
 	<!-- fin du head -->
@@ -131,13 +134,7 @@
 			</aside>
 			
 		</main>
-
-		<!-- pied de page du site -->		
-		<footer>
-			<p class="backmenu"> <a href="#"> ^ </a> </p>
-			<p> <small>&copy; 2022 <span>T</span>emplate web site</small></p>
-		</footer>
-
-	</body> <!-- fin de la balise -->
-
-</html>
+<!-- footer -->
+<?php
+require_once('footer.php');
+?>
