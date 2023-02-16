@@ -1,35 +1,6 @@
-<!DOCTYPE html>
-<html lang="fr">
-	<head>
-		<meta charset="utf-8">
-		<meta name="robots" content="noindex, nofollow">
-		<meta name="robots" content="index, nofollow">
-		<meta name="robots" content="noindex, follow">
-		<meta name="robots" content="index, follow">
-		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<!-- titre de la page max 56 char -->
-		<title>HOME-Page-Template</title>
-		<!-- description du contenu de la page max 156 char se voit dans le moteur de recherche-->
-		<meta name="Index" content="Template de page Index">
-		<link rel="stylesheet" href="CSS/Styles.css">
-	</head>
-	<!-- fin du head -->
-
-	<!-- debut de body -->
-	<body>
-
-		<!-- bandeau du haut de la page -->
-		<header>
-			<h1><span>H</span>eader</h1>
-		</header>
-
-		<!-- bandeau de navigation du site -->
-		<nav>
-			<a href="#" title="aller vers xxx">Home</a>
-			<a href="#" title="aller vers xxx">Section-1</a>
-			<a href="#" title="aller vers xxx">xxx</a>
-			<a href="http://git-cheatsheet.com/" target="_blank" title="aller vers xxx">git-cheatsheet</a>
-		</nav>
+<?php
+require_once('header.php')
+?>
 
 		<!-- partie principale de la page -->
 		<main>
@@ -131,13 +102,7 @@
 			</aside>
 			
 		</main>
-
-		<!-- pied de page du site -->		
-		<footer>
-			<p class="backmenu"> <a href="#"> ^ </a> </p>
-			<p> <small>&copy; 2022 <span>T</span>emplate web site</small></p>
-		</footer>
-
-	</body> <!-- fin de la balise -->
-
-</html>
+<!-- footer -->
+<?php
+require_once('footer.php');
+?>
