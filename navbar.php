@@ -1,10 +1,10 @@
 	<!-- Navbar responsive -->
 	<nav class="navbar navbar-dark bg-primary navbar-expand-lg">
 		<div class="container">
-		<a href="index.html" class="navbar-brand">
+		<a href="index.php" class="navbar-brand">
 			<img 
-				src="IMG/Tristan_LRT.png" 
-				alt="Tristan-LATERROT" 
+				src="img/github-pic.png" 
+				alt="Github-logo" 
 				class="rounded-circle d-inline-block"
 				width="60"
 				height="60" 
